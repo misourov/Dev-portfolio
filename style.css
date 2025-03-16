@@ -36,7 +36,18 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
 }
-
+.text-center{
+    text-align: center;
+}
+.line-height1{
+    line-height: 28px;
+}
+.line-height2{
+    line-height: 30px;
+}
+.font-weight{
+    font-weight: bold;
+}
 /*  nav style */
 nav{
     display: flex;
@@ -102,17 +113,86 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section style */
 .about{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
     border-radius: 10px;
     margin-top: 130px;
     padding: 130px 150px;
     text-align: center;
 }
 .about-items{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     justify-content: space-around;
 }
-.item-despcription{
-    font-weight: 600px;
+
+
+/* skills */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+/* resume section style */
+.resume{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{
+    font-size: 25px;
+}
+.resume .section-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.experience-description{
+    line-height: 28px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+/* Footer section style */
+
+footer{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
